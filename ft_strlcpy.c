@@ -5,10 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/08 12:14:18 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/10 16:35:20 by mkerkeni         ###   ########.fr       */
+/*   Created: 2022/11/20 11:41:30 by mkerkeni          #+#    #+#             */
+/*   Updated: 2022/11/20 11:41:33 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)

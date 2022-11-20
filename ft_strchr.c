@@ -6,9 +6,10 @@
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/10 18:45:07 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/13 11:24:36 by mkerkeni         ###   ########.fr       */
+/*   Updated: 2022/11/20 11:40:18 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 char	*ft_strchr(const char *s, int c)

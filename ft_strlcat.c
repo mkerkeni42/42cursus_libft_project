@@ -6,9 +6,10 @@
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 12:40:53 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/11 14:51:27 by mkerkeni         ###   ########.fr       */
+/*   Updated: 2022/11/20 11:41:19 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)

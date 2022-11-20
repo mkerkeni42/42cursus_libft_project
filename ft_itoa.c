@@ -1,34 +1,53 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/13 09:59:12 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/20 11:42:06 by mkerkeni         ###   ########.fr       */
+/*   Created: 2022/11/20 11:43:13 by mkerkeni          #+#    #+#             */
+/*   Updated: 2022/11/20 12:06:11 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strrchr(const char *s, int c)
+void	fill_str(char *str, long nb, int len)
 {
-	int		i;
-	char	*ptr;
-	size_t	s_len;
+	int	i;
 
-	i = 0;
-	ptr = (char *)s;
-	s_len = ft_strlen(s);
-	i = s_len;
+	i = len - 1;
 	while (i >= 0)
 	{
-		if (s[i] == (unsigned char)c)
-			return (ptr + i);
+		str[i] = nb % 10 + '0';
+		nb /= 10;
 		i--;
 	}
-	if (c == '\0')
-		return (ptr + s_len);
-	return (0);
+}
+
+char	*ft_itoa(int n)
+{
+	char	*str;
+	int		str_len;
+	long	nb;
+
+	nb = (long)n;
+	str_len = 0;
+	if (nb <= 0)
+		str_len = 1;
+	while (nb != 0)
+	{
+		nb /= 10;
+		str_len++;
+	}
+	nb = (long)n;
+	if (n < 0)
+		nb *= -1;
+	str = ft_calloc(sizeof(char), str_len + 1);
+	if (!str)
+		return (0);
+	fill_str(str, nb, str_len);
+	if (n < 0)
+		str[0] = '-';
+	return (str);
 }

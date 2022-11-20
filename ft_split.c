@@ -1,20 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/08 10:23:37 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/20 11:42:26 by mkerkeni         ###   ########.fr       */
+/*   Created: 2022/11/20 12:24:24 by mkerkeni          #+#    #+#             */
+/*   Updated: 2022/11/20 13:07:29 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_toupper(int c)
+char    **ft_split(char const *s, char c)
 {
-	if (c >= 'a' && c <= 'z')
-		c -= 32;
-	return (c);
+    char    *str;
+    int     i;
+    int     j;
+
+    str = (char *)s;
+    i = 0;
+    j = 0;
+    while(str[i])
+    {
+        if (str[i] == c)
+        {
+            
+        }
+    }
 }
