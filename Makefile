@@ -6,7 +6,7 @@
 #    By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/20 11:42:45 by mkerkeni          #+#    #+#              #
-#    Updated: 2022/11/20 12:23:59 by mkerkeni         ###   ########.fr        #
+#    Updated: 2022/11/22 11:17:39 by mkerkeni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -45,7 +45,8 @@ SRCS 	=  ft_isalpha.c \
 		ft_strmapi.c \
 		ft_striteri.c \
 		ft_itoa.c \
-		ft_split \
+		ft_split.c \
+		ft_strtrim.c \
 
 OBJS = $(SRCS:.c=.o)
 

@@ -6,9 +6,10 @@
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 14:56:14 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/11 18:16:12 by mkerkeni         ###   ########.fr       */
+/*   Updated: 2022/11/24 16:04:30 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)

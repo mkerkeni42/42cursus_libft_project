@@ -6,10 +6,9 @@
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 10:44:43 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/10 15:19:04 by mkerkeni         ###   ########.fr       */
+/*   Updated: 2022/11/24 15:54:33 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
 
 int	ft_atoi(const char *str)
 {

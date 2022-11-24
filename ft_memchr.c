@@ -6,9 +6,10 @@
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/13 10:33:46 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/13 13:11:32 by mkerkeni         ###   ########.fr       */
+/*   Updated: 2022/11/24 15:56:28 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)

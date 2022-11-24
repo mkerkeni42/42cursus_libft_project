@@ -6,9 +6,10 @@
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 12:01:36 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/11 14:34:50 by mkerkeni         ###   ########.fr       */
+/*   Updated: 2022/11/24 16:05:03 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)

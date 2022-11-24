@@ -6,9 +6,10 @@
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 11:42:27 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/11 11:59:47 by mkerkeni         ###   ########.fr       */
+/*   Updated: 2022/11/24 15:54:46 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 void	ft_bzero(void *s, size_t n)

@@ -6,9 +6,10 @@
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/13 13:14:08 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/13 14:35:31 by mkerkeni         ###   ########.fr       */
+/*   Updated: 2022/11/24 16:05:18 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)

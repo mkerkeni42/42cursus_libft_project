@@ -6,13 +6,13 @@
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/20 11:43:13 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/20 12:06:11 by mkerkeni         ###   ########.fr       */
+/*   Updated: 2022/11/24 15:56:06 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	fill_str(char *str, long nb, int len)
+static void	fill_str(char *str, long nb, int len)
 {
 	int	i;
 
