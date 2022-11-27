@@ -1,33 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strchr.c                                        :+:      :+:    :+:   */
+/*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mkerkeni <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/11/10 18:45:07 by mkerkeni          #+#    #+#             */
-/*   Updated: 2022/11/27 12:15:23 by mkerkeni         ###   ########.fr       */
+/*   Created: 2022/11/27 16:39:23 by mkerkeni          #+#    #+#             */
+/*   Updated: 2022/11/27 17:02:49 by mkerkeni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strchr(const char *s, int c)
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
-	int		i;
-	char	*ptr;
-	size_t	s_len;
-
-	i = 0;
-	ptr = (char *)s;
-	s_len = ft_strlen(s);
-	while (ptr[i])
+	t_list	*current;
+	t_list	*new_lst;
+	
+	new_lst = malloc(sizeof(t_list));
+	if (!new_lst)
+		del(lst->content);
+	if (lst && f)
 	{
-		if (ptr[i] == (char)c)
-			return (ptr + i);
-		i++;
+		while (lst)
+		{
+			current = lst->next;
+			f(lst->content);
+			lst = current;
+		}
 	}
-	if (c == '\0')
-		return (ptr + s_len);
-	return (0);
+	return (current);
 }
