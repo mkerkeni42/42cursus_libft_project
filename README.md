@@ -1,4 +1,4 @@
-# **Libft: Because Standard Libraries Are So Last Season! 🌟**
+# **🌟 Libft: Because Standard Libraries Are So Last Season! 🌟**
 
 ## **Project Overview**
 Just some usefull functions in C to manipulate characters, strings, integers and linked lists 🧩
