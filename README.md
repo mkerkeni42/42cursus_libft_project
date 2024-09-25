@@ -19,4 +19,6 @@ As I progressed through my curriculum at 42, I gradually figured out the point o
 
 ## **Reflections**
 
-*If you've revisited any of your 42 projects to improve or refactor them, highlight this in the ReadMe.*
+*Need to talk about how wise it was to making us start by learning C langage a low_level language*
+*talk about how I added in my library other useful functions ever after validating the project*
+*talk about how it is more practical to have those functions in order to modify them as we want*
